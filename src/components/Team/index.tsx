@@ -30,18 +30,18 @@ const team = [
     specialty: 'Direito Trabalhista e Tributário',
     image: carina,
   },
-  {
-    name: 'Dra. Carina F. Nogueira',
-    role: 'Sócia Fundadora',
-    specialty: 'Direito Trabalhista e Tributário',
-    image: carina,
-  },
-  {
-    name: 'Dra. Carina F. Nogueira',
-    role: 'Sócia Fundadora',
-    specialty: 'Direito Trabalhista e Tributário',
-    image: carina,
-  },
+  // {
+  //   name: 'Dra. Carina F. Nogueira',
+  //   role: 'Sócia Fundadora',
+  //   specialty: 'Direito Trabalhista e Tributário',
+  //   image: carina,
+  // },
+  // {
+  //   name: 'Dra. Carina F. Nogueira',
+  //   role: 'Sócia Fundadora',
+  //   specialty: 'Direito Trabalhista e Tributário',
+  //   image: carina,
+  // },
 ];
 
 const Team = () => {
