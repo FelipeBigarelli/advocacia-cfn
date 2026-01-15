@@ -1,7 +1,7 @@
 import {
   Briefcase,
   Building2,
-  Users,
+  Building,
   FileText,
   ShieldCheck,
   Landmark,
@@ -36,20 +36,20 @@ const areas = [
       'Consultoria jurídica para empresas, contratos, fusões e aquisições.',
   },
   {
-    icon: Users,
-    title: 'Direito de Família',
+    icon: Building,
+    title: 'Direito Imobiliário/Regularização de Terrenos',
     description:
-      'Divórcios, inventários, pensão alimentícia e guarda de menores.',
+      'Compra, venda, locação e regularização de imóveis e terrenos.',
   },
   {
     icon: FileText,
-    title: 'Direito Civil',
+    title: 'Direito Civil/Família',
     description:
-      'Contratos, responsabilidade civil, direito do consumidor e indenizações.',
+      'Contratos, responsabilidade civil, direito do consumidor e indenizações & Direito de família, divórcios, guarda e pensão alimentícia.',
   },
   {
     icon: ShieldCheck,
-    title: 'Direito Previdenciário',
+    title: 'Direito Previdenciário/INSS',
     description:
       'Aposentadorias, benefícios do INSS e revisões previdenciárias.',
   },

@@ -25,6 +25,7 @@ import {
   Textarea,
   SubmitBtn,
 } from './styles';
+import { maskBRPhone } from '../../utils/maskPhone';
 
 const contactInfo = [
   {
@@ -67,10 +68,12 @@ const Contact = () => {
     e.preventDefault();
 
     const phone = '5541987542745'; // DDI+DDD+número (sem +)
-    const text = `Olá! Vim pelo site CFN.
+    const text = `Olá! Vim pelo site CFN Advocacia.
+
 Nome: ${formData.name}
 Email: ${formData.email}
 Telefone: ${formData.phone || '-'}
+
 Assunto: ${formData.subject}
 
 Mensagem:
@@ -147,12 +150,16 @@ ${formData.message}`;
               <Row2>
                 <Input
                   type="tel"
-                  placeholder="Seu Telefone"
+                  placeholder="DDD + Telefone"
                   value={formData.phone}
                   onChange={e =>
-                    setFormData({ ...formData, phone: e.target.value })
+                    setFormData({
+                      ...formData,
+                      phone: maskBRPhone(e.target.value),
+                    })
                   }
                 />
+
                 <Input
                   type="text"
                   placeholder="Assunto"

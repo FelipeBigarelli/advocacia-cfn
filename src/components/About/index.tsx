@@ -19,7 +19,7 @@ import {
 } from './styles';
 
 const stats = [
-  { icon: Scale, value: '2+', label: 'Anos de Experiência' },
+  { icon: Scale, value: '4+', label: 'Anos de Experiência' },
   { icon: Award, value: '30+', label: 'Casos de Sucesso' },
   { icon: Users, value: '50+', label: 'Clientes Satisfeitos' },
   { icon: Clock, value: '24h', label: 'Suporte Dedicado' },
