@@ -65,9 +65,19 @@ const Contact = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    console.log(formData);
-    alert('Mensagem enviada com sucesso! Entraremos em contato em breve.');
-    setFormData({ name: '', email: '', phone: '', subject: '', message: '' });
+
+    const phone = '5541987542745'; // DDI+DDD+número (sem +)
+    const text = `Olá! Vim pelo site CFN.
+Nome: ${formData.name}
+Email: ${formData.email}
+Telefone: ${formData.phone || '-'}
+Assunto: ${formData.subject}
+
+Mensagem:
+${formData.message}`;
+
+    const url = `https://wa.me/${phone}?text=${encodeURIComponent(text)}`;
+    window.open(url, '_blank');
   };
 
   return (
@@ -155,7 +165,7 @@ const Contact = () => {
               </Row2>
 
               <Textarea
-                placeholder="Sua Mensagem"
+                placeholder="Sua Mensagem e sua Idade"
                 value={formData.message}
                 onChange={e =>
                   setFormData({ ...formData, message: e.target.value })
