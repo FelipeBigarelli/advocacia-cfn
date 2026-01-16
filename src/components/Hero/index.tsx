@@ -35,7 +35,7 @@ const Hero = () => {
             <AccentLine />
 
             <Title>
-              CFN <GoldGradient>Advocacia</GoldGradient>
+              CFN Escritório de <GoldGradient>Advocacia</GoldGradient>
             </Title>
 
             <Text style={{ animationDelay: '0.2s' }}>

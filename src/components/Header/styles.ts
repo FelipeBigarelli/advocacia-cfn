@@ -37,7 +37,10 @@ export const Brand = styled.a`
   text-decoration: none;
 
   img {
-    height: 80px;
+    height: 72px;
+    border: 1px solid ${({ theme }) => theme.colors.goldDark};
+    border-block: none;
+    border-radius: 50%;
   }
 `;
 

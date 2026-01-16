@@ -36,7 +36,8 @@ const Footer = () => {
             <BrandRow>
               <Scale style={{ width: 40, height: 40 }} />
               <BrandText>
-                <BrandStrong>CFN</BrandStrong> Advocacia
+                <BrandStrong>CFN </BrandStrong>
+                Escritório de Advocacia
               </BrandText>
             </BrandRow>
 
@@ -86,7 +87,8 @@ const Footer = () => {
         {/* Bottom Bar */}
         <BottomBar>
           <BottomText>
-            © {currentYear} CFN Advocacia. Todos os direitos reservados.
+            © {currentYear} CFN Escritório de Advocacia. Todos os direitos
+            reservados.
           </BottomText>
           <BottomText>OAB/PR 129.720</BottomText>
         </BottomBar>

@@ -47,8 +47,7 @@ const Header = () => {
           <Brand href="#inicio" aria-label="Ir para início">
             <img src={logo} alt="Logo" />
             <BrandText>
-              {/* <BrandStrong>CFN</BrandStrong>  */}
-              Advocacia
+              <BrandStrong>Advocacia </BrandStrong>
             </BrandText>
           </Brand>
 
