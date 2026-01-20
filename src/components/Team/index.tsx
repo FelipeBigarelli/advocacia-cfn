@@ -27,7 +27,7 @@ const team = [
   {
     name: 'Dra. Carina F. Nogueira',
     role: 'Sócia Fundadora',
-    specialty: 'Direito Trabalhista e Tributário',
+    specialty: 'Direito Previdenciário/INSS e Tributário',
     image: carina,
   },
   // {
